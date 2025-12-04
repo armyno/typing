@@ -946,7 +946,7 @@ function random_item(items) {
 function sortText(a, b) {
     return 0.5 - Math.random();
 }
-$.get("/typing/data/data.json", function (data) {
+$.get("/data/data.json", function (data) {
     if (data != null) {
         function setInitValue() {
             if (lesson == "23") {
