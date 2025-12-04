@@ -1658,11 +1658,10 @@ ul.childs > li a:hover {
 
 #header h2 {
     position: absolute;
-    left: 210px;
+    left: 100px;
     top: 50%;
     font-size: 16px;
     transform: translateY(-50%);
-    vertical-align: middle;
 }
 
 .ut {
