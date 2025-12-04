@@ -946,7 +946,7 @@ function random_item(items) {
 function sortText(a, b) {
     return 0.5 - Math.random();
 }
-$.get("/data/data.json", function (data) {
+$.get("https://armyno.github.io/typing/data/data.json", function (data) {
     if (data != null) {
         function setInitValue() {
             if (lesson == "23") {
