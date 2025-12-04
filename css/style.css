@@ -1388,7 +1388,7 @@ div#hints {
 
 .main {
     position: relative;
-    max-width: 960px;
+    max-width: 100%;
     /*background: #fafafa;*/
     overflow: auto;
     margin: auto;
@@ -1413,7 +1413,7 @@ div#hints {
 .container {
     position: absolute;
     top: 78px;
-    width: calc(100% - 214px);
+    width: calc(100% - 305px);
     left: 50%;
     transform: translate(-50%, 0);
     /*height: calc(100% - 32px);*/
@@ -1590,13 +1590,13 @@ img {
 }
 
 body.showmenu .box-left {
-    width: calc(210px - 18px);
+    width: calc(300px - 18px);
     left: 16px;
     border: 1px solid #ddd;
 }
 
 body.showmenu .container {
-    left: 214px;
+    left: 300px;
     transform: none;
 }
 
