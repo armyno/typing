@@ -1,5 +1,5 @@
 // Copyright Normunds Andersons
-var doumain = "";
+var doumain = "/typing";
 //var doumain = "";
 var xmlhttp;
 $('.main').css({ height: $(window).height() });
