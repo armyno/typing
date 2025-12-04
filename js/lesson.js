@@ -1,5 +1,5 @@
 // Copyright Normunds Andersons
-var doumain = "/typing";
+var doumain = "";
 //var doumain = "";
 var xmlhttp;
 $('.main').css({ height: $(window).height() });
@@ -946,7 +946,7 @@ function random_item(items) {
 function sortText(a, b) {
     return 0.5 - Math.random();
 }
-$.get("https://softvn.com/lab/game-typing/data/data.json", function (data) {
+$.get("/data/data.json", function (data) {
     if (data != null) {
         function setInitValue() {
             if (lesson == "23") {
