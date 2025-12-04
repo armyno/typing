@@ -1,5 +1,5 @@
 // Copyright Normunds Andersons
-var doumain = "/photos/lab/game-typing";
+var doumain = "";
 //var doumain = "";
 var xmlhttp;
 $('.main').css({ height: $(window).height() });
