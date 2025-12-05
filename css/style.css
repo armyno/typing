@@ -316,7 +316,7 @@ input.btn {
 #text {
     /*width: calc(100% - 36px);*/
     border: 1px solid #ddd;
-    font-size: 24px;
+    font-size: 34px;
     margin: 16px 12px 0 12px;
     background-color: #ffffff;
     border-radius: 4px;
@@ -383,9 +383,9 @@ input.btn {
 #type {
     width: calc(100% - 42px);
     padding: 8px;
-    font-size: 24px;
+    font-size: 34px;
     background-color: #fff;
-    /*font-family: "Courier New", Courier, monospace;*/
+    font-family: "Courier New", Courier, monospace;
     /*  font-family: Verdana, Geneva, sans-serif; */
     border-radius: 5px;
     margin: 16px 12px 0 12px;
@@ -453,7 +453,7 @@ input.btn {
 }
 
 .suggestion {
-    width: 100%;
+    width: 80%;
     margin-left: 125px;
     position: relative;
 }
