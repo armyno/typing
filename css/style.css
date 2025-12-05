@@ -453,13 +453,13 @@ input.btn {
 }
 
 .suggestion {
-    width: calc(100% - 0px);
-    margin: 3px auto;
+    width: 100%;
+    margin-left: 125px;
     position: relative;
 }
 
 #suggestion {
-    height: 152px;
+    height: 200px;
 }
 
 #suggestion_num {
