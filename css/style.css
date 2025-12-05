@@ -7,7 +7,7 @@ body {
     color: #000;
     margin: 0px;
     padding: 0px;
-    background-color: #f6f6f6;
+  /*  background-color: #f6f6f6; */
     font-family: Arial,Helvetica,sans-serif;
     font-size: 13px;
     height: 100%;
@@ -398,14 +398,14 @@ input.btn {
     border: 1px solid #ddd;
     padding: 3px 1px;
     margin: 0 12px 0 12px;
-    padding-left: 54px;
-    padding-right: 16px;
+    text-align: center;
+    padding: 4px 16px 10px 0;
     font-size: 12px;
     /* font-weight: bold; */
     letter-spacing: 1px;
     border-radius: 4px;
     display: block;
-    background: #fff url(https://i.gamevui.com/themes/default/images/alike.png) no-repeat 8px center;
+    background: #fff;
 }
 
 .counter_box {
