@@ -12,6 +12,26 @@
     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-K3KMNBT');</script>
+	 <script>
+      document.addEventListener('DOMContentLoaded', function() {
+    // 1. Chặn Ctrl + Lăn chuột
+    document.addEventListener('wheel', function(e) {
+        if (e.ctrlKey) {
+            e.preventDefault();
+        }
+    }, { passive: false });
+
+    // 2. Chặn các phím tắt zoom (Ctrl + "+", Ctrl + "-", Ctrl + "0")
+    document.keydown = function(e) {
+        if (e.ctrlKey && 
+           (e.keyCode === 61 || e.keyCode === 107 || // Phím +
+            e.keyCode === 173 || e.keyCode === 109 || // Phím -
+            e.keyCode === 187 || e.keyCode === 189)) {
+            e.preventDefault();
+        }
+    };
+});
+    </script>
     <!-- End Google Tag Manager -->
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css?t=1">
