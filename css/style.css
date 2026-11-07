@@ -1703,7 +1703,7 @@ ul.childs > li a:hover {
     justify-content: center;
     align-items: center;
     gap: 8px; /* Khoảng cách giữa các nút */
-    padding: 10px 15px;
+    padding: 5px;
     background: #ffffff;
     border-radius: 50px; /* Bo tròn như viên thuốc */
     box-shadow: 0 4px 15px rgba(0,0,0,0.05); /* Bóng mờ tinh tế */
